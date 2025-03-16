@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUIS BIO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .bio {
+            background: #ffffff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        button {
+            padding: 10px 15px;
+            background: #35424a;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        a {
+          text-decoration: none;
+          color: #00BFFF;
+        }
+        .copy-text {
+            cursor: pointer;
+            color: gray; /* Серый цвет текста */
+            text-decoration: underline; /* Подчеркивание текста */
+            max-width: 250px;
+                overflow-wrap: break-word; /* Позволяет разрывать длинные слова */
+            word-break: break-all; /* Разрыв слов при необходимости */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><i>Mr. RUIS VIP</i></h1>
+</header>
+
+<div class="container">
+    <div class="bio">
+        <h2>Обо мне</h2>
+        <p>Я Руслан Исаев — начинающий разработчик на Python, специализируюсь на создании Telegram-ботов с использованием aiogram и Telethon. Хорошо разбираюсь в серверной инфраструктуре, работаю с Docker и VDS. Интересуюсь информационной безопасностью и блокчейн-технологиями, особенно экосистемой Ton.</p>
+    </div>
+    <div class="bio">
+        <h2>Мои проекты</h2>
+        <p><b><a href="https://t.me/RUIS_VlP">RUIS MODS</a></b> - модули на Python для юзербота <a href="https://github.com/hikariatama/Hikka">Hikka</a> и <a href="https://github.com/coddrago/Heroku">Heroku</a></p>
+        <br>
+        <p><b><a href="https://github.com/Ruslan-Isaev/TermGPT">TermGPT</a></b> - бесплатный ChatGPT для терминала. Создан на  <a href="http://onlysq.ru">OnlySQ API</a></p>
+        <br>
+        <p><b><a href="https://github.com/Neotele-Studio/GetTorBridgesSubAPI">GetTorBridgesSubAPI</a></b> - API на PHP для получения мостов для Tor. Работает путем отправки curl запросов на сайт проекта Tor. Может пригодится если в вашей стране заблокирован офыициальный сайт Tor. Просто разверните API на иностранном сервере и получайте мосты без особых проблем.</p>
+        <br>
+        <p><b>RUIS-S3 (в разработке)</b> - Python программа для терминала для работы с S3 хранилищами.</p>
+    </div>
+    <div class="bio">
+        <h2>Обратная связь</h2>
+        <p>Email: <a href="mailto:root@ruisvip.ru">root@ruisvip.ru</a></p>
+        <p>Telegram: <a href="https://t.me/botapimaker">@botapimaker</a></p>
+    </div>
+    <div class="bio">
+        <h2>Донат</h2>
+        <p>Ton: </p><p class="copy-text" onclick="copyText()">UQA989xBd_-Fi5HhbTaFrpj5TxBLBIQ2Pi_CzoZfyUpcx_xR</p>
+        <p>YooMoney: <a href="https://yoomoney.ru/to/4100117782029816">открыть</a></p>
+    </div>
+    <div class="bio"><i>
+        <p>Исходный код: <a href="https://github.com/Ruslan-Isaev/bio_site">GitHub</a></p>
+        <p>Лицензия: <a href="https://github.com/Ruslan-Isaev/bio_site/raw/refs/heads/main/LICENSE">MIT</a></p>
+        <p>Руслан Исаев, <script>document.write(new Date().getFullYear());</script></p></i>
+    </div>
+</div>
+<script>
+  function copyText() {
+            const textToCopy = "UQA989xBd_-Fi5HhbTaFrpj5TxBLBIQ2Pi_CzoZfyUpcx_xR";
+            navigator.clipboard.writeText(textToCopy);
+        }
+    
+</script>
+</body>
+</html>
